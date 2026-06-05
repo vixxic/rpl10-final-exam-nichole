@@ -1,0 +1,21 @@
+.section345-img-con {
+  flex: 1;
+  display: flex;
+}
+
+.section345-img-con img {
+  width: 80%;
+}
+
+@media (max-width: 1600px) {
+  .section345-img-con {
+    transform: scale(0.9);
+    transform-origin: center center;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section345-img-con {
+    transform: scale(0.8);
+  }
+}

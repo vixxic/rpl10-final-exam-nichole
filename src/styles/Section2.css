@@ -1,0 +1,58 @@
+.section-2 {
+  display: flex;
+}
+
+.section2-img-con {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+.sec-2-img {
+  position: absolute;
+}
+
+.task-today-img {
+  top: 10.6%;
+  left: 6.8%;
+  width: 32.5%;
+  z-index: 96;
+}
+
+.web-dash-img {
+  top: 9.8%;
+  left: 25.7%;
+  width: 114.7%;
+  z-index: 97;
+}
+
+.mentors-img {
+  top: 48%;
+  left: 3.3%;
+  width: 58.5%;
+  z-index: 98;
+}
+
+.send-img {
+  top: 44.2%;
+  left: 48.4%;
+  width: 16.3%;
+  z-index: 99;
+}
+
+@media (max-width: 1600px) {
+  .section2-img-con {
+    transform: scale(0.9);
+    transform-origin: center center;
+  }
+
+  .task-today-img {
+    width: 28%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section2-img-con {
+    transform: scale(0.8);
+  }
+}

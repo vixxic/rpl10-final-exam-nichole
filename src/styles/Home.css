@@ -1,0 +1,82 @@
+.home-section {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      to right,
+      rgb(35, 35, 64) 0%,
+      rgb(35, 35, 64) 12%,
+      rgba(35, 35, 64, 0.65) 30%,
+      rgba(35, 35, 64, 0.55) 55%,
+      rgba(35, 35, 64, 0.2) 80%,
+      transparent 100%
+    ),
+    url("home-background.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 -9.2vw;
+}
+
+.home-content-con {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 9.2vw;
+  width: 100%;
+  min-height: 100vh;
+  gap: 1vw;
+}
+
+.home-tlt {
+  margin: 0%;
+  font-size: clamp(1rem, 4vw, 4.5rem);
+  color: white;
+  letter-spacing: 2px;
+}
+
+.home-p {
+  font-size: clamp(0.5rem, 1.3vw, 1.6rem);
+  color: white;
+  margin: 0;
+}
+
+.email-inpt-home {
+  display: flex;
+  margin-top: 3.4vw;
+  gap: 24px;
+}
+
+.email-inpt-con {
+  display: flex;
+  background-color: white;
+  border: 2px #d1ecfd solid;
+  border-radius: 5px;
+  width: 20.5vw;
+  height: 3vw;
+  box-sizing: border-box;
+  padding: 0.6vw 0.9vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-inpt-con input {
+  outline: 0;
+  border: none;
+}
+
+.email-inpt-con input::placeholder {
+  color: #7676b2;
+  font-size: clamp(0.5rem, 1vw, 1.6rem);
+}
+
+.get-early-btn {
+  background-color: #5468e7;
+  border: #5468e7 2px solid;
+  border-radius: 5px;
+  color: white;
+  width: 17vw;
+  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+}

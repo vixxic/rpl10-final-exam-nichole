@@ -1,0 +1,60 @@
+.navbar-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  padding: 0 9.2vw;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.navbar-con.scrolled {
+  background: rgba(35, 35, 64, 0.8);
+  backdrop-filter: blur(12px);
+}
+
+.navbar-links-button {
+  display: flex;
+  width: max-content;
+  gap: 4vw;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  width: max-content;
+  gap: 4vw;
+  list-style: none;
+  font-size: clamp(0.5rem, 1.3vw, 1.6rem);
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+
+.nav-links a {
+  border-bottom: 2px solid white;
+}
+
+.logo {
+  font-size: clamp(1rem, 3.5vw, 4.2rem);
+  color: white;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #5468e7;
+}
+
+.get-access-btn {
+  width: 13.3vw;
+  height: 3.3vw;
+  border-radius: 8px;
+  background: rgba(84, 104, 231, 0.55);
+  color: white;
+  outline: none;
+  border: none;
+  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+}
