@@ -12,7 +12,7 @@
       rgba(35, 35, 64, 0.2) 80%,
       transparent 100%
     ),
-    url("home-background.jpg");
+    url("/home-background.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
