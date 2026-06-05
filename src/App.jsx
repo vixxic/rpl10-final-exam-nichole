@@ -41,7 +41,7 @@ function App() {
         <Section345
           layoutDirection="row"
           justifyContent=""
-          img="./img-group1.png"
+          img="./imgGroup1.png"
           titleb1="Chats for your"
           titleb2="distributed teams"
           sectiontext="section-3-text"
@@ -56,7 +56,7 @@ function App() {
         <Section345
           layoutDirection="row-reverse"
           justifyContent="flex-end"
-          img="./img-group2.png"
+          img="./imgGroup2.png"
           titleb1="Choose how you "
           titleb2="want to work"
           sectiontext="section-4-text"
@@ -71,7 +71,7 @@ function App() {
         <Section345
           layoutDirection="row"
           justifyContent=""
-          img="./img-group3.png"
+          img="./imgGroup3.png"
           titleb1="Move faster with "
           titleb2="your Team tools"
           sectiontext="section-5-text"
